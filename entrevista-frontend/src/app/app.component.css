@@ -1,0 +1,8 @@
+.all {
+  background-color: rgba(88, 22, 125, 0.05);
+  min-height: 100vh;
+}
+
+.px-content {
+  padding: 10px;
+}

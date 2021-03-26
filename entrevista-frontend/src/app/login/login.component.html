@@ -1,0 +1,25 @@
+<mat-card style="width: 30%; margin-left: 35%; margin-top: 15%;">
+
+  <div class="example-container" style="text-align: center;">
+
+    <form [formGroup]="credentials">
+<h1>Insere as credenciais</h1>
+
+        <mat-label>Email</mat-label>
+        <input formControlName="email" type="email" class="page-signin-form-control form-control" placeholder="E-mail"
+          required>
+
+      <br>
+
+        <mat-label>Senha</mat-label>
+        <input formControlName="senha" type="password" class="page-signin-form-control form-control" placeholder="Senha"
+          required>
+
+      <br>
+      <button (click)="submit()" >
+         Acessar
+      </button>
+    </form>
+  </div>
+
+</mat-card>
